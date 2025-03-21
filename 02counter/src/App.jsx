@@ -10,11 +10,9 @@ function App() {
   //let counter = 15
 
   const addValue = () => {
-    //counter = counter + 1
-    setCounter(prevCounter => prevCounter + 1)
-    setCounter(prevCounter => prevCounter + 1 )
-    setCounter(prevCounter => prevCounter + 1)
-    setCounter(prevCounter => prevCounter + 1)
+    setCounter(counter + 1)
+    // counter= counter + 1
+    // setCounter(prevCounter => prevCounter + 1)
     
   }
 
@@ -24,7 +22,7 @@ function App() {
   
   return (
     <>
-      <h1>Chai aur react</h1>
+      <h1>Counter Project</h1>
       <h2>Counter value: {counter}</h2>
 
       <button
